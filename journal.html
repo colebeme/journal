@@ -1,0 +1,39 @@
+<html>
+<head>
+<script src="https://cdn.ckeditor.com/4.17.2/standard/ckeditor.js"></script>
+</head>
+<style>
+body{
+background-image:url("yo.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+div.ed1{
+width:700px;
+height:654px;
+background-color:white;
+}
+div.ed{
+margin-top:10;
+width:700px;
+height:700px;
+background-color:white;
+}
+
+</style>
+<body>
+<center>
+<div class="ed1">
+<h1>my life</h1>
+<div  class="ed" id="editor" name="editor" >
+<textarea id="editor" name="editor"></textarea>
+</div>
+</div>
+<center>
+</body>
+
+
+<script>
+CKEDITOR.replace('editor',{height:500});
+</script>
+</html>
